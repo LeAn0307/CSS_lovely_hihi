@@ -239,7 +239,7 @@ i:hover {
   transition: transform 0.4s;
 }
 .img1:hover {
- /* phương pháp tăng hoặc giảm kích thước của một phần tử lên n lần(theo các tham số cho chiều rộng và chiều cao)*/
+  /* phương pháp tăng hoặc giảm kích thước của một phần tử lên n lần(theo các tham số cho chiều rộng và chiều cao)*/
   transform: scale(1.3);
   /* thay đổi vị trí của các phần tử được biến đổi. Các phép biến đổi 2D có thể thay đổi trục x và y của một phần tử */
   transform-origin: 50% 50%;
@@ -287,3 +287,157 @@ i:hover {
   padding: 1rem;
 }
 /* list products */
+.grid-products {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.div-pro {
+  margin: auto;
+  text-align: center;
+}
+.title_1 {
+  color: #b17878;
+  margin-top: 5rem;
+  padding: 1rem;
+  font-family: monospace;
+  font-size: xx-large;
+  font-weight: 600;
+}
+.title_2 {
+  font-family: monospace;
+  font-size: medium;
+  padding: 1rem;
+  color: #5f5e5e;
+}
+.div_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title_3,
+.title_4 {
+  padding: 1rem;
+  font-family: monospace;
+  font-size: small;
+  font-weight: 700;
+  color: #3c3838;
+}
+.title_3 {
+}
+.title_4 {
+}
+.grid-products {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 2rem;
+  margin-top: 6rem;
+}
+.pro-1 {
+  overflow: hidden;
+  width: 100%;
+  height: 30rem;
+
+  display: relative;
+}
+.chua {
+  width: 100%;
+  height: 30rem;
+  transition: transform 0.4s;
+  display: relative;
+}
+.chua:hover {
+  transform: scale(1.3);
+  transform-origin: 50% 50%;
+}
+.im1,
+.im2 {
+  width: 100%;
+  height: 30rem;
+}
+.im1 {
+  display: none;
+}
+.im2 {
+  display: relative;
+}
+
+.chua:hover .im2 {
+  display: none;
+}
+.chua:hover .im1 {
+  display: block;
+}
+.name_pro {
+  padding: 2rem;
+  font-size: larger;
+  color: #482e2e;
+  font-family: cursive;
+}
+.price {
+  padding-left: 2rem;
+  padding-top: -1rem;
+  font-size: medium;
+  color: #98717e;
+}
+/* overlay cart */
+
+.addtocard {
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+
+  width: 100%;
+}
+.cart {
+  opacity: 0;
+   padding-right: 3rem;
+}
+.text {
+  padding-right: 3rem;
+}
+.chua:hover .addtocard {
+  text-align: center;
+  opacity: 1;
+  position: absolute;
+  bottom: 0;
+  background: rgba(148, 105, 105, 0.774);
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.5s ease;
+  color: white;
+  font-size: 10px;
+  padding: 20px;
+  margin-bottom: 1rem;
+}
+.addtocard:hover .cart {
+  opacity: 1;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 1rem;
+  transition: 0.5s ease;
+  
+}
+.addtocard:hover .text {
+  display: none;
+}
+/* overlay white-bar */
+.white-bar{
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap:1rem;
+  position: absolute;
+  right:0;
+  top:15%;
+ font-size: 12px;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  color: #3c3838;
+  opacity: 0;
+   transition: 0.5s ease;
+}
+.chua:hover .white-bar{
+  opacity: 1;
+  margin-right: 4rem;
+}
+
