@@ -769,7 +769,7 @@ i:hover {
   .body {
     margin-left: 0rem;
     margin-right: 0rem;
-    padding: 0.5rem;
+
   }
   .header .grid-container {
     margin: 0;
@@ -913,6 +913,9 @@ i:hover {
   .xemthem {
     font-size: large;
   }
+  .grid-slider {
+    margin-top: 0em;
+  }
 }
 /* iphone */
 /*Iphone(480 x 640)*/
@@ -920,7 +923,7 @@ i:hover {
   .body {
     margin-left: 0rem;
     margin-right: 0rem;
-    padding: 0.5rem;
+  
   }
   .header .grid-container {
     margin: 0;
@@ -1160,4 +1163,12 @@ i:hover {
   .name_pro {
     font-family: ui-serif;
   }
+  .grid-slider {
+    margin-top: 0em;
+  }
+  .body {
+   padding-right: 0.5rem;
+     padding-left: 0.5rem;
+  }
+  .left,.right{display:none;}
 }
