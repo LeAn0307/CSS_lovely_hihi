@@ -345,7 +345,6 @@ i:hover {
   grid-template-columns: auto auto auto auto;
   column-gap: 1rem;
   padding: 3rem;
-
 }
 
 .cont {
@@ -777,7 +776,7 @@ i:hover {
     grid-gap: 0rem;
     display: grid;
     grid-template-columns: 200px 900px;
-      padding-top: 2em;
+    padding-top: 2em;
     padding-bottom: 2em;
   }
   .des,
@@ -896,24 +895,24 @@ i:hover {
   .para {
     margin: auto;
   }
-  .h1{
-  font-size: x-large;
-}
-.p{
-  font-size: small;
-}
-.h5{
-font-size: large;
-}
-.h3{
-font-size: large;
-}
-.p-gray{
-font-size: small;
-}
-.xemthem{
-      font-size: large;
-}
+  .h1 {
+    font-size: x-large;
+  }
+  .p {
+    font-size: small;
+  }
+  .h5 {
+    font-size: large;
+  }
+  .h3 {
+    font-size: large;
+  }
+  .p-gray {
+    font-size: small;
+  }
+  .xemthem {
+    font-size: large;
+  }
 }
 /* iphone */
 /*Iphone(480 x 640)*/
@@ -1035,13 +1034,13 @@ font-size: small;
     width: 15rem;
   }
   .mota {
-    top: 6%;
+    top: 12.5%;
   }
   .mota1 {
-    top: 61%;
+    top: 67.5%;
   }
   .mota2 {
-    top: 88%;
+    top: 94.5%;
   }
   .name {
     font-size: initial;
@@ -1097,67 +1096,67 @@ font-size: small;
     display: block;
     width: 100vw;
     height: 75vh;
-    top:10%;
+    top: 10%;
     background-color: #f9f9f9;
   }
-  .signin{
+  .signin {
     font-size: small;
   }
-  .grid-3-col-copy{
-  
+  .grid-3-col-copy {
     display: grid;
 
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     background-color: #e5dde700;
     padding: 0rem;
-    
   }
-  .title{
+  .title {
     font-size: small;
   }
-  .img{
+  .img {
     width: 4rem;
     height: 4rem;
   }
   .grid-1,
-.grid-2,
-.grid-3 {
-  /* display: grid;
+  .grid-2,
+  .grid-3 {
+    /* display: grid;
   grid-template-columns: auto auto auto auto;
   column-gap: 1rem; */
-     padding-right: 20rem;
-  
-}
-.icon-close{
-  font-size: small;
-}
-.grid-container{
-  padding-top: 1.5rem;
+    padding-right: 20rem;
+  }
+  .icon-close {
+    font-size: small;
+  }
+  .grid-container {
+    padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-}
-.h1{
-  font-size: large;
-}
-.p{
-  font-size: inherit;
-}
-.h5{
-font-size: larger;
-}
-.h3{
-font-size: larger;
-}
-.p-gray{
-font-size: smaller;
-}
-.xemthem{
-      font-size: larger;
-}
-.header-si:hover{
-  background-color:#a15959;
-}
-.hr4{
-  margin:0px 0px;
-  padding: 0px;
-}
+  }
+  .h1 {
+    font-size: large;
+  }
+  .p {
+    font-size: inherit;
+  }
+  .h5 {
+    font-size: larger;
+  }
+  .h3 {
+    font-size: larger;
+  }
+  .p-gray {
+    font-size: smaller;
+  }
+  .xemthem {
+    font-size: larger;
+  }
+  .header-si:hover {
+    background-color: #a15959;
+  }
+  .hr4 {
+    margin: 0px 0px;
+    padding: 0px;
+  }
+  .name_pro {
+    font-family: ui-serif;
+  }
 }
