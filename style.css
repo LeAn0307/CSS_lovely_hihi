@@ -769,7 +769,6 @@ i:hover {
   .body {
     margin-left: 0rem;
     margin-right: 0rem;
-
   }
   .header .grid-container {
     margin: 0;
@@ -923,7 +922,6 @@ i:hover {
   .body {
     margin-left: 0rem;
     margin-right: 0rem;
-  
   }
   .header .grid-container {
     margin: 0;
@@ -1037,13 +1035,13 @@ i:hover {
     width: 15rem;
   }
   .mota {
-    top: 12.5%;
+    top: 9.4%;
   }
   .mota1 {
-    top: 67.5%;
+    top: 64.2%;
   }
   .mota2 {
-    top: 94.5%;
+    top: 91.5%;
   }
   .name {
     font-size: initial;
@@ -1167,8 +1165,11 @@ i:hover {
     margin-top: 0em;
   }
   .body {
-   padding-right: 0.5rem;
-     padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
   }
-  .left,.right{display:none;}
+  .left,
+  .right {
+    display: none;
+  }
 }
