@@ -1098,6 +1098,7 @@ i:hover {
     height: 100vh;
     top: 10%;
     background-color: #f9f9f9;
+    z-index: 10000;
   }
   .signin {
     font-size: small;
